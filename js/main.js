@@ -381,12 +381,12 @@
 		var map = new mapboxgl.Map({
 			container: 'map-dark',
 			style: 'mapbox://styles/stoscar/ckk75h29r02ol17rrilp215vd',
-			center: [-79.394900, 43.643102],
-			zoom: 11
+			center: [29.0266346, 41.0774218],
+			zoom: 14
 		});
 
 		var marker = new mapboxgl.Marker()
-			.setLngLat([-79.394900, 43.643102])
+			.setLngLat([29.0266346, 41.0774218])
 			.addTo(map);
 	}
 
@@ -395,12 +395,12 @@
 		var map = new mapboxgl.Map({
 			container: 'map-light',
 			style: 'mapbox://styles/stoscar/ckkb5d37l0euf17r0wws7op4i',
-			center: [-79.394900, 43.643102],
-			zoom: 11
+			center: [29.0266346, 41.0774218],
+			zoom: 14
 		});
 
 		var marker = new mapboxgl.Marker()
-			.setLngLat([-79.394900, 43.643102])
+			.setLngLat([29.0266346, 41.0774218])
 			.addTo(map);
 	}
 
@@ -756,12 +756,12 @@
 			var map = new mapboxgl.Map({
 				container: 'map-dark',
 				style: 'mapbox://styles/stoscar/ckk75h29r02ol17rrilp215vd',
-				center: [-79.394900, 43.643102],
-				zoom: 11
+				center: [29.0266346, 41.0774218],
+				zoom: 14
 			});
 
 			var marker = new mapboxgl.Marker()
-				.setLngLat([-79.394900, 43.643102])
+				.setLngLat([29.0266346, 41.0774218])
 				.addTo(map);
 		}
 
@@ -770,12 +770,12 @@
 			var map = new mapboxgl.Map({
 				container: 'map-light',
 				style: 'mapbox://styles/stoscar/ckkb5d37l0euf17r0wws7op4i',
-				center: [-79.394900, 43.643102],
-				zoom: 11
+				center: [29.0266346, 41.0774218],
+				zoom: 14
 			});
 
 			var marker = new mapboxgl.Marker()
-				.setLngLat([-79.394900, 43.643102])
+				.setLngLat([29.0266346, 41.0774218])
 				.addTo(map);
 		}
 
